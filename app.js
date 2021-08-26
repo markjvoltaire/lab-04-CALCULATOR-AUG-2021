@@ -1,6 +1,6 @@
 // import functions
 
-import { add } from './functions.js';
+import { add, multiply } from './functions.js';
 
 // reference needed DOM elements
 const addNumber1 = document.getElementById('add-number-1');
@@ -13,11 +13,10 @@ addButton.addEventListener('click', ()=>{
     
     const nom1 = Number(addNumber1.value);
     const nom2 = Number(addNumber2.value);
-    console.log('userclicked', nom1,nom2); 
+    // console.log('userclicked', nom1,nom2); 
     addAnswer.textContent = add(nom1, nom2);
  
 });
-
 
 
 
