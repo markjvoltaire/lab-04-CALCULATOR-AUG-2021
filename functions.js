@@ -1,1 +1,3 @@
-const addNumber1 = document.getElementById('add-number-1');
+export function add(){
+    
+}
