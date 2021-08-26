@@ -18,6 +18,23 @@ addButton.addEventListener('click', ()=>{
  
 });
 
+const multiply1 = document.getElementById('product-number-1');
+const multiply2 = document.getElementById('product-number-2');
+const productButton = document.getElementById('product-button');
+const productAnswer = document.getElementById('product-answer');
+
+productButton.addEventListener('click', ()=>{
+
+    const productNumber1 = Number(multiply1.value);
+    const productNumber2 = Number(multiply2.value);
+    productAnswer.textContent = multiply(productNumber1, productNumber2);
+
+});
+
+
+
+
+
 
 
 
