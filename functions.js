@@ -1,0 +1,1 @@
+const addNumber1 = document.getElementById('add-number-1');
